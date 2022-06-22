@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const UserData = require('./src/app');
 const User = require('./src/index');
+require('dotenv').config()
 const { getUserDetails, newUser, login, deleteUser, editUser } = require('./src/controller');
 
 //API Version
@@ -37,6 +38,6 @@ app.get(`/newUser`, newUser);
 app.get(`/login`, login);
 app.get(`/deleteUser`, deleteUser);
 app.get(`/editUser`, editUser);
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Port is listening')
 })
