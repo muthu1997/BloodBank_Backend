@@ -34,10 +34,10 @@ mongoose.connect("mongodb+srv://muthukumar1997:Muthu%40Tech%24@cluster0.aw0qx.mo
     })
 
 app.get(`/user`, getUserDetails);
-app.get(`/newUser`, newUser);
-app.get(`/login`, login);
-app.get(`/deleteUser`, deleteUser);
-app.get(`/editUser`, editUser);
+app.post(`/newUser`, newUser);
+app.post(`/login`, login);
+app.put(`/deleteUser/:id`, deleteUser);
+app.post(`/editUser`, editUser);
 app.listen(process.env.PORT || 3000, () => {
     console.log('Port is listening')
 })
