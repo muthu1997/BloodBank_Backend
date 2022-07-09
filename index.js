@@ -10,9 +10,8 @@ const UserData = require('./src/app');
 const User = require('./src/index');
 require('dotenv').config()
 const { getUserDetails, newUser, login, deleteUser, editUser } = require('./src/controller');
+const { getWorkoutData } = require('./src/gym/controller');
 
-//API Version
-const API = "/api";
 //Middleware to get json data
 app.use(express.json());
 //This will give logs of every request
@@ -38,6 +37,7 @@ app.post(`/newUser`, newUser);
 app.post(`/login`, login);
 app.put(`/deleteUser/:id`, deleteUser);
 app.post(`/editUser`, editUser);
+app.get(`/getWorkoutData`, getWorkoutData);
 app.listen(process.env.PORT || 3000, () => {
     console.log('Port is listening')
 })
