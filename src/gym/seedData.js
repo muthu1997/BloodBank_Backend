@@ -64,7 +64,7 @@ const BeginnerWorkoutPlan = [
         day: "Sunday",
         workout: "Rest day",
         type: "Beginner",
-        image: "",
+        image: "1cZMmldNXMlgW_kCRd051wbODNQ7ZGldA",
         category: "REST"
     },
     {
@@ -72,7 +72,7 @@ const BeginnerWorkoutPlan = [
         day: "Monday",
         workout: "Leg day",
         type: "Beginner",
-        image: "",
+        image: "1cZMmldNXMlgW_kCRd051wbODNQ7ZGldA",
         category: "LEG"
     },
     {
@@ -80,7 +80,7 @@ const BeginnerWorkoutPlan = [
         day: "Tuesday",
         workout: "Chest & Back",
         type: "Beginner",
-        image: "",
+        image: "1cZMmldNXMlgW_kCRd051wbODNQ7ZGldA",
         category: "CHEST"
     },
     {
@@ -88,7 +88,7 @@ const BeginnerWorkoutPlan = [
         day: "Wednesday",
         workout: "Arms & Abs",
         type: "Beginner",
-        image: "",
+        image: "1cZMmldNXMlgW_kCRd051wbODNQ7ZGldA",
         category: "BICEP"
     }
 ]
