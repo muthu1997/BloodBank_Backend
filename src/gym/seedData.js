@@ -60,60 +60,36 @@ const InterMediateWorkoutPlan = [
 
 const BeginnerWorkoutPlan = [
     {
-        id: 1,
+        id: 0,
         day: "Sunday",
-        workout: "Beginner day",
-        type: "Intermediate",
-        image: "https://t3.ftcdn.net/jpg/02/22/81/16/240_F_222811663_jgiHFddGD8pJXSIdup6LcBA6v5sgqBvQ.jpg",
-        category: "LEG"
+        workout: "Rest day",
+        type: "Beginner",
+        image: "",
+        category: "REST"
     },
     {
         id: 1,
         day: "Monday",
         workout: "Leg day",
-        type: "Intermediate",
-        image: "https://t3.ftcdn.net/jpg/02/22/81/16/240_F_222811663_jgiHFddGD8pJXSIdup6LcBA6v5sgqBvQ.jpg",
+        type: "Beginner",
+        image: "",
         category: "LEG"
     },
     {
         id: 2,
         day: "Tuesday",
-        workout: "Chest & Abs",
-        type: "Intermediate",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOIe4TaT-jVRraDYD1JjgSJ4V9bj_BV8oQHg&usqp=CAU",
+        workout: "Chest & Back",
+        type: "Beginner",
+        image: "",
         category: "CHEST"
     },
     {
         id: 3,
         day: "Wednesday",
-        workout: "Back  & Biceps",
-        type: "Intermediate",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3ro6wejKgZDC0F4kgvgPdWBNfjvV5GAGwDuh8YqwU0EJ-HyAfy1C3ZEeosr6YxxW7KA&usqp=CAU",
-        category: "BACK"
-    },
-    {
-        id: 4,
-        day: "Thursday",
-        workout: "Shoulder & Triceps",
-        type: "Intermediate",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK48enRujcm0PnN8R5GyzIb7vMqyzGmAQSFGKTh0Aym8iah7fuAMJ62hg030f7P7-fl3Y&usqp=CAU",
-        category: "SHOULDER"
-    },
-    {
-        id: 5,
-        day: "Friday",
-        workout: "Biceps & Abs",
-        type: "Intermediate",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4-ILZtluuVYEbVYyDf88-j7PBjMGhKRYZdmq5fTeheO9SN_ntqPfkgDhpm3TtTFORW0&usqp=CAU",
+        workout: "Arms & Abs",
+        type: "Beginner",
+        image: "",
         category: "BICEP"
-    },
-    {
-        id: 6,
-        day: "Saturday",
-        workout: "Functional Workout",
-        type: "Intermediate",
-        image: "https://http2.mlstatic.com/D_NQ_NP_651161-MLM26562409010_122017-O.webp",
-        category: "FULL"
     }
 ]
 
