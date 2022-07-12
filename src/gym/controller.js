@@ -7,7 +7,7 @@ const getWorkoutData = async (req, res) => {
         success: true,
         status: 200,
         message: "Success",
-        bdata: B_DATA,
+        data: {bdata: B_DATA},
       });
     } catch (error) {
       res.send({ success: false, status: 404, message: "Fetch Failed" });
