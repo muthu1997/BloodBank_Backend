@@ -57,14 +57,13 @@ const InterMediateWorkoutPlan = [
         category: "FULL"
     }
 ]
-
 const BeginnerWorkoutPlan = [
     {
         id: 0,
         day: "Sunday",
         workout: "Rest day",
         type: "Beginner",
-        image: "",
+        image: "1EcvreIYO4BhESxCmCfXcvb8hNxD1ab5d",
         category: "REST"
     },
     {
