@@ -1,19 +1,20 @@
-const {BeginnerWorkoutPlan} = require("./seedData");
+const { BeginnerWorkoutPlan, Workouts } = require("./seedData");
 
 const getWorkoutData = async (req, res) => {
-    try {
-      const B_DATA = BeginnerWorkoutPlan;
-      res.send({
-        success: true,
-        status: 200,
-        message: "Success",
-        data: {bdata: B_DATA},
-      });
-    } catch (error) {
-      res.send({ success: false, status: 404, message: "Fetch Failed" });
-    }
-  };
+  try {
+    const B_DATA = BeginnerWorkoutPlan;
+    res.send({
+      success: true,
+      status: 200,
+      message: "Success",
+      data: { bdata: B_DATA },
+      workouts: Workouts
+    });
+  } catch (error) {
+    res.send({ success: false, status: 404, message: "Fetch Failed" });
+  }
+};
 
-  module.exports = {
-    getWorkoutData
-  };
+module.exports = {
+  getWorkoutData
+};
