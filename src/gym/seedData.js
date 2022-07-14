@@ -1,4 +1,6 @@
 
+// category id Beginner = 1, Intermediate 2, Advanced = 3
+
 const InterMediateWorkoutPlan = [
     {
         id: 1,
@@ -64,7 +66,8 @@ const BeginnerWorkoutPlan = [
         workout: "Rest day",
         type: "Beginner",
         image: "1EcvreIYO4BhESxCmCfXcvb8hNxD1ab5d",
-        category: "REST"
+        category: "REST",
+        dayid: 1
     },
     {
         id: 1,
@@ -72,7 +75,8 @@ const BeginnerWorkoutPlan = [
         workout: "Leg day",
         type: "Beginner",
         image: "1YBjGE98DqCsWGGpARLYMYhrJaYapMvDB",
-        category: "LEG"
+        category: "LEG",
+        dayid: 2
     },
     {
         id: 2,
@@ -80,7 +84,8 @@ const BeginnerWorkoutPlan = [
         workout: "Chest & Back",
         type: "Beginner",
         image: "1Q-4nPdA-kNMRZAHbu9lB9mg-x43tLJ83",
-        category: "CHEST"
+        category: "CHEST",
+        dayid: 3
     },
     {
         id: 3,
@@ -88,7 +93,8 @@ const BeginnerWorkoutPlan = [
         workout: "Arms & Abs",
         type: "Beginner",
         image: "1PtAB4IaTiLuQXMe2NDLuwfUzhL0Gmovf",
-        category: "BICEP"
+        category: "BICEP",
+        dayid: 4
     },
     {
         id: 4,
@@ -96,7 +102,8 @@ const BeginnerWorkoutPlan = [
         workout: "Leg day",
         type: "Beginner",
         image: "1YBjGE98DqCsWGGpARLYMYhrJaYapMvDB",
-        category: "LEG"
+        category: "LEG",
+        dayid: 5
     },
     {
         id: 5,
@@ -104,7 +111,8 @@ const BeginnerWorkoutPlan = [
         workout: "Chest & Back",
         type: "Beginner",
         image: "1Q-4nPdA-kNMRZAHbu9lB9mg-x43tLJ83",
-        category: "CHEST"
+        category: "CHEST",
+        dayid: 6
     },
     {
         id: 6,
@@ -112,7 +120,8 @@ const BeginnerWorkoutPlan = [
         workout: "Arms & Abs",
         type: "Beginner",
         image: "1PtAB4IaTiLuQXMe2NDLuwfUzhL0Gmovf",
-        category: "BICEP"
+        category: "BICEP",
+        dayid: 7
     }
 ]
 
@@ -184,7 +193,8 @@ const Workouts = [
         set: 2,
         rep: "6-8",
         description: "",
-        category: "LEG"
+        category: "LEG",
+        dayid: [2, 5]
     },
     {
         id: 2,
@@ -194,7 +204,8 @@ const Workouts = [
         set: 2,
         rep: "6-8",
         description: "",
-        category: "SHOULDER"
+        category: "SHOULDER",
+        dayid: [2, 5]
     },
     {
         id: 3,
@@ -204,7 +215,8 @@ const Workouts = [
         set: 2,
         rep: "8-10",
         description: "Need to walk straightly.",
-        category: "LEG"
+        category: "LEG",
+        dayid: [2, 5]
     },
     {
         id: 4,
@@ -214,7 +226,8 @@ const Workouts = [
         set: 2,
         rep: "8-10",
         description: "",
-        category: "SHOULDER"
+        category: "SHOULDER",
+        dayid: [2, 5]
     },
     {
         id: 5,
@@ -224,7 +237,8 @@ const Workouts = [
         set: 2,
         rep: "6-8",
         description: "",
-        category: "LEG"
+        category: "LEG",
+        dayid: [2, 5]
     },
     {
         id: 6,
@@ -234,7 +248,8 @@ const Workouts = [
         set: 3,
         rep: "8-10",
         description: "",
-        category: "SHOULDER"
+        category: "SHOULDER",
+        dayid: [2, 5]
     },
     {
         id: 7,
@@ -244,7 +259,8 @@ const Workouts = [
         set: 3,
         rep: "10-12",
         description: "",
-        category: "LEG"
+        category: "LEG",
+        dayid: [2, 5]
     },
     {
         id: 8,
@@ -254,13 +270,160 @@ const Workouts = [
         set: 3,
         rep: "10-12",
         description: "",
-        category: "ABS"
+        category: "ABS",
+        dayid: [2, 5]
     },
+    {
+        "id": 9,
+        "catid": 1,
+        "name": "Dumbell bench press",
+        "image": ["1mY-Iz2ErGEjiugvlJcSdxBijdhc8bsZJ", "1pNZG-6hENzv1rtluR1oxaJVBE1DtdZOS"],
+        "set": 3,
+        "rep": "8-10",
+        "description": "",
+        "category": "CHEST",
+        dayid: [3, 6]
+      },
+      {
+        "id": 10,
+        "catid": 1,
+        "name": "Dumbell bent over row",
+        "image": ["1iS-3WqpHDnQtsi8s10iHPJTUWqSZ4w3U","1QY1i3_09xHFYPkVzzpT2BSZUX8CDhrCT","102K2_95_mu7nv3BA4gqTy6g0TI64QIty","1QjyzOiN9QfSa5vapKOIT09lmavCnPspZ"],
+        "set": 3,
+        "rep": "6-8",
+        "description": "",
+        "category": "CHEST",
+        dayid: [3, 6]
+      },
+      {
+        "id": 11,
+        "catid": 1,
+        "name": "Dumbell fly",
+        "image": ["1zHVPOV6XQ10A7eZ_-CN2h-7rZZvmCzU-","1c6RmCfrNAjSTSOsXHngSoxzhv4ZpY1Ov"],
+        "set": 3,
+        "rep": "8-10",
+        "description": "",
+        "category": "CHEST",
+        dayid: [3, 6]
+      },
+      {
+        "id": 12,
+        "catid": 1,
+        "name": "One arm dumbell row",
+        "image": ["1agtXmLIhWodfCBBj6KlCHxy1o8Pdv1Y2","1WMFchx4CNtj9pRy8_YJEywp3ZElmAzIc"],
+        "set": 3,
+        "rep": "6-8",
+        "description": "",
+        "category": "CHEST",
+        dayid: [3, 6]
+      },
+      {
+        "id": 13,
+        "catid": 1,
+        "name": "Pushups",
+        "image": [],
+        "set": 3,
+        "rep": "10-12",
+        "description": "",
+        "category": "CHEST",
+        dayid: [3, 6]
+      },
+      {
+        "id": 14,
+        "catid": 1,
+        "name": "Dumbell pull over",
+        "image": [],
+        "set": 3,
+        "rep": "10-12",
+        "description": "",
+        "category": "CHEST",
+        dayid: [3, 6]
+      },
+      {
+        "id": 15,
+        "catid": 1,
+        "name": "Alternate bicep curl",
+        "image": ["11OLHdzv2icAtPj0boUkSLBVNGtVl149j", "1CxwICZKQTe9gGh0NnGPSqmFKPt5TGvVi","1GLTUyIphSM2PAy-ZTQD0LIID3W7sujhl"],
+        "set": 3,
+        "rep": "8-10",
+        "description": "",
+        "category": "BICEP",
+        dayid: [4, 7]
+      },
+      {
+        "id": 16,
+        "catid": 1,
+        "name": "Overhead tricep extension",
+        "image": ["1HgqcLn0kIxGoV3hTXln-OtMkTTmzP0i7", "1c-vlQO78QRCOUKA-ERHsJ43-mTP2yGll", "1UTuJSowTVPm3D1Xk4zYdvliORa6ZP6ob", "1ggdkRcsK3f41yJtz9aJVmOdnJNYJWlJg"],
+        "set": 3,
+        "rep": "8-10",
+        "description": "",
+        "category": "TRICEP",
+        dayid: [4, 7]
+      },
+      {
+        "id": 17,
+        "catid": 1,
+        "name": "Preacher curl",
+        "image": ["1XeB6DWwi8QrRz75GWc-C5d6BuORZchpt","1n2DFKge9cM50ONKSsBy9HPdnx-T7eWuU","1kZS_ARcdJjWtJ8N0uB2V4gii8Mk_D3v8","1gfVK0N1g-rWcjYD9rH74TRugN5snDX-r"],
+        "set": 2,
+        "rep": "10-12",
+        "description": "",
+        "category": "BICEP",
+        dayid: [4, 7]
+      },
+      {
+        "id": 18,
+        "catid": 1,
+        "name": "Bench dips",
+        "image": ["1hN0Xhq0oGG_ySNny_sqLhSftvhJOeihj","1Hpg8p4KSlHQcY6VOz7YhhlmaWE4HB2Pb"],
+        "set": 2,
+        "rep": "10-12",
+        "description": "",
+        "category": "TRICEP",
+        dayid: [4, 7]
+      },
+      {
+        "id": 19,
+        "catid": 1,
+        "name": "Concentration curl",
+        "image": ["1aoyyEwiU8zMx01vkZde3-xrg8uuT6uIG","1ckkkG8z7JCDQiWEWthz-AsK_VQcid-2j"],
+        "set": 3,
+        "rep": "10-12",
+        "description": "",
+        "category": "BICEP",
+        dayid: [4, 7]
+      },
+      {
+        "id": 20,
+        "catid": 1,
+        "name": "Dumbell kickback",
+        "image": ["1FO0xKtj7UD8k3yQe9fKqmJCg5AjBxzMK","1NKAI_RGqiteXQXyBPeZmuMkwah__ZAdk"],
+        "set": 3,
+        "rep": "8-10",
+        "description": "",
+        "category": "TRICEP",
+        dayid: [4, 7]
+      },
+      {
+        "id": 21,
+        "catid": 1,
+        "name": "Plank",
+        "image": [],
+        "set": 3,
+        "rep": "30",
+        "description": "30 Seconds",
+        "category": "ABS",
+        dayid: [4, 7]
+      }
+]
+
+const dummy = [
     {
         id: 9,
         catid: 2,
         name:"Bar dips",
-        image: "null",
+        image: [],
         set: 3,
         rep: "10-15",
         description: "",
@@ -624,3 +787,5 @@ module.exports = {
     AdvancedWorkoutPlan,
     Workouts
   };
+
+  
