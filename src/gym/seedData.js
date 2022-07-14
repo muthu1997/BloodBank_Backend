@@ -193,8 +193,7 @@ const Workouts = [
         set: 2,
         rep: "6-8",
         description: "",
-        category: "LEG",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 2,
@@ -204,8 +203,7 @@ const Workouts = [
         set: 2,
         rep: "6-8",
         description: "",
-        category: "SHOULDER",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 3,
@@ -215,8 +213,7 @@ const Workouts = [
         set: 2,
         rep: "8-10",
         description: "Need to walk straightly.",
-        category: "LEG",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 4,
@@ -226,8 +223,7 @@ const Workouts = [
         set: 2,
         rep: "8-10",
         description: "",
-        category: "SHOULDER",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 5,
@@ -237,8 +233,7 @@ const Workouts = [
         set: 2,
         rep: "6-8",
         description: "",
-        category: "LEG",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 6,
@@ -248,8 +243,7 @@ const Workouts = [
         set: 3,
         rep: "8-10",
         description: "",
-        category: "SHOULDER",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 7,
@@ -259,8 +253,7 @@ const Workouts = [
         set: 3,
         rep: "10-12",
         description: "",
-        category: "LEG",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         id: 8,
@@ -270,8 +263,7 @@ const Workouts = [
         set: 3,
         rep: "10-12",
         description: "",
-        category: "ABS",
-        dayid: [2, 5]
+        category: "LEG"
     },
     {
         "id": 9,
@@ -282,7 +274,7 @@ const Workouts = [
         "rep": "8-10",
         "description": "",
         "category": "CHEST",
-        dayid: [3, 6]
+        
       },
       {
         "id": 10,
@@ -293,7 +285,7 @@ const Workouts = [
         "rep": "6-8",
         "description": "",
         "category": "CHEST",
-        dayid: [3, 6]
+        
       },
       {
         "id": 11,
@@ -304,7 +296,7 @@ const Workouts = [
         "rep": "8-10",
         "description": "",
         "category": "CHEST",
-        dayid: [3, 6]
+        
       },
       {
         "id": 12,
@@ -315,7 +307,7 @@ const Workouts = [
         "rep": "6-8",
         "description": "",
         "category": "CHEST",
-        dayid: [3, 6]
+        
       },
       {
         "id": 13,
@@ -326,7 +318,7 @@ const Workouts = [
         "rep": "10-12",
         "description": "",
         "category": "CHEST",
-        dayid: [3, 6]
+        
       },
       {
         "id": 14,
@@ -337,7 +329,7 @@ const Workouts = [
         "rep": "10-12",
         "description": "",
         "category": "CHEST",
-        dayid: [3, 6]
+        
       },
       {
         "id": 15,
@@ -348,7 +340,7 @@ const Workouts = [
         "rep": "8-10",
         "description": "",
         "category": "BICEP",
-        dayid: [4, 7]
+        
       },
       {
         "id": 16,
@@ -358,8 +350,8 @@ const Workouts = [
         "set": 3,
         "rep": "8-10",
         "description": "",
-        "category": "TRICEP",
-        dayid: [4, 7]
+        "category": "BICEP",
+        
       },
       {
         "id": 17,
@@ -370,7 +362,7 @@ const Workouts = [
         "rep": "10-12",
         "description": "",
         "category": "BICEP",
-        dayid: [4, 7]
+        
       },
       {
         "id": 18,
@@ -380,8 +372,8 @@ const Workouts = [
         "set": 2,
         "rep": "10-12",
         "description": "",
-        "category": "TRICEP",
-        dayid: [4, 7]
+        "category": "BICEP",
+        
       },
       {
         "id": 19,
@@ -392,7 +384,7 @@ const Workouts = [
         "rep": "10-12",
         "description": "",
         "category": "BICEP",
-        dayid: [4, 7]
+        
       },
       {
         "id": 20,
@@ -402,8 +394,8 @@ const Workouts = [
         "set": 3,
         "rep": "8-10",
         "description": "",
-        "category": "TRICEP",
-        dayid: [4, 7]
+        "category": "BICEP",
+        
       },
       {
         "id": 21,
@@ -413,8 +405,8 @@ const Workouts = [
         "set": 3,
         "rep": "30",
         "description": "30 Seconds",
-        "category": "ABS",
-        dayid: [4, 7]
+        "category": "BICEP",
+        
       }
 ]
 
