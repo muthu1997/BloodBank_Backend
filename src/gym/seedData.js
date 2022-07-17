@@ -3,7 +3,7 @@
 
 const InterMediateWorkoutPlan = [
     {
-        id: 1,
+        id: 0,
         day: "Sunday",
         workout: "Rest day",
         type: "Intermediate",
