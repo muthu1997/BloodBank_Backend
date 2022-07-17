@@ -1,4 +1,4 @@
-const { BeginnerWorkoutPlan, BWorkouts, IWorkouts } = require("./seedData");
+const { BeginnerWorkoutPlan, InterMediateWorkoutPlan, BWorkouts, IWorkouts } = require("./seedData");
 
 const getWorkoutData = async (req, res) => {
   try {
@@ -7,7 +7,7 @@ const getWorkoutData = async (req, res) => {
       success: true,
       status: 200,
       message: "Success",
-      data: { bdata: B_DATA },
+      data: { bdata: B_DATA, idata: InterMediateWorkoutPlan },
       workouts: BWorkouts,
       iworkouts: IWorkouts
     });
