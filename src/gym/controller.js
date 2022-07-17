@@ -1,4 +1,4 @@
-const { BeginnerWorkoutPlan, Workouts } = require("./seedData");
+const { BeginnerWorkoutPlan, BWorkouts, IWorkouts } = require("./seedData");
 
 const getWorkoutData = async (req, res) => {
   try {
@@ -8,7 +8,8 @@ const getWorkoutData = async (req, res) => {
       status: 200,
       message: "Success",
       data: { bdata: B_DATA },
-      workouts: Workouts
+      workouts: BWorkouts,
+      iworkouts: IWorkouts
     });
   } catch (error) {
     res.send({ success: false, status: 404, message: "Fetch Failed" });
