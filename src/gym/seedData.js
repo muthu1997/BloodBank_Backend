@@ -31,7 +31,7 @@ const InterMediateWorkoutPlan = [
         day: "Wednesday",
         workout: "Back  & Biceps",
         type: "Intermediate",
-        image: "1Q-4nPdA-kNMRZAHbu9lB9mg-x43tLJ83",
+        image: "1Px2P2L-sGgPgJ_Z5IefjJ0xtlRPc0tnP",
         category: "BACK"
     },
     {
